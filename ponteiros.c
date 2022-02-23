@@ -18,5 +18,5 @@ void main() {
 
     printf("%i \n", ptr_Ponteir);
     printf("%i \n", ptr_SegundoValor);
-    printf("%i", &test);
+    printf("%p", &test);
 }
