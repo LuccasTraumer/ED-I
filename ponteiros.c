@@ -7,6 +7,7 @@ void main() {
 
     //printf("Valor e: %f", test);
 
+    /*
     int valorPonteiro = 10;
     int segundoValor = 20;
 
@@ -18,5 +19,12 @@ void main() {
 
     printf("%i \n", ptr_Ponteir);
     printf("%i \n", ptr_SegundoValor);
-    printf("%p", &test);
+    printf("%p", &test);*/
+
+    int valor = 12;
+    int segundoValor = &valor;
+
+    segundoValor = 15;
+
+    printf("%i", valor);
 }
